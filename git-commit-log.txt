@@ -1,0 +1,58 @@
+Success: 1-04VasilievAyhal Ayhal
+Success: 1-06VeshnikovValeriy CrpShepard
+Success: 1-07DyachkovskiAman rggrgr
+Success: 1-08ZakharovVyacheslav Zokhar
+Success: 1-09KardashevskiNikolai kolyakard
+Success: 1-10KatyginskiyMikhail Mihail-essey
+Success: 1-11MikhailovArian bluefacebabe
+***FAIL: 1-12MuratovFiruzjon Firuzjon2000 TIMEOUT, tries=40
+Success: 1-13NikolaevSandal keltoblast
+Success: 1-14OsipovDenis DENISSP3KTR
+***FAIL: 1-15OkhlopkovAyaal asui02 TIMEOUT, tries=40
+Success: 1-16PavlovVadim mechamixxx
+Success: 1-17PavlovProkopiy pstn72
+Success: 1-20StarostinaSargylana stogramms
+Success: 1-21SuslonovNikita Second-Sail
+***FAIL: 1-22FedorovUigulaan feduygulaan TIMEOUT, tries=40
+Success: 1-23YakovlevaTatiana TanYak21
+***FAIL: 2-01AbramovVyacheslav SlavaAbramov998 TIMEOUT, tries=40
+Success: 2-02AdamovAiaal unityaday
+Success: 2-03BaishevDuolan Best1707
+Success: 2-04BorisovAndrei Dusha628
+***FAIL: 2-05VasilievDenis vasil01denis 404 Not Found
+Success: 2-06GavrilievSemyon s3wa
+Success: 2-07GrigorevIon grigorevion
+Success: 2-08DiodorovDanil DanilDiodorov
+***FAIL: 2-09DyachkovskiNikolai KULER555 TIMEOUT, tries=40
+Success: 2-10IvanovTimur serpentim
+Success: 2-11KirillovIvan KirillovIvann
+Success: 2-12KlimovNyurgun KVMMY
+***FAIL: 2-13KolesovAleksei kolesov1 404 Not Found
+Success: 2-14KolodeznikovaSnezhana Snezhankolodeznikova
+***FAIL: 2-15LeontievDarkhan Leo-Darkhan 404 Not Found
+Success: 2-16MaksimovLeonid maksimovurievich
+Success: 2-17MonastyrevNurgun MDoDLeZ
+***FAIL: 2-18MutovinaMaria Mariia-stuck 404 Not Found
+Success: 2-19NikiforovGavril GavrilNikiforov
+Success: 2-20NikiforovSergei sqrt1337
+Success: 2-21PetrovAndrei sherwood2142
+Success: 2-22RabotenkoRuslan ruslanrb
+Success: 2-23SkrybykinAisen Sypyx
+Success: 2-24SleptsovaLiliya liliyasleptsova
+Success: 2-25UstinovKirill Ustinov-Ki
+***FAIL: 2-26FedorovSidor sidfed 404 Not Found
+Success: 3-01AbramovSemyon jixonka
+Success: 3-02AlekseevaDaiaana agegq
+***FAIL: 3-03VasilievIgor overfrenzy 404 Not Found
+Success: 3-04VasilievaKarina whyenere
+***FAIL: 3-05GrigorievAleksandr grialalaku TIMEOUT, tries=40
+***FAIL: 3-06GrigorievChagyl chagyl 404 Not Found
+***FAIL: 3-07KrivoshapkinLev qweqweqwece 404 Not Found
+Success: 3-08MikhailovArtur holsen11
+***FAIL: 3-09NikolaevVladislav gakt 404 Not Found
+Success: 3-10PavlovAfanasiy Afanas9
+***FAIL: 3-11ProshutinskiyPavel Crrimson-creator 404 Not Found
+***FAIL: 3-12SivtsevIlya Siv1l 404 Not Found
+***FAIL: 3-13FedorovJulur zutorexdip 404 Not Found
+Success: 3-14ShigapovRoman joinfc
+***FAIL: 3-15YurchenkoVasiliy grungrun 404 Not Found

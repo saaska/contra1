@@ -1,0 +1,79 @@
+%!TEX program = xelatex
+\documentclass{article}
+\usepackage[a5paper,hmargin=17mm,tmargin=15mm,bmargin=25mm]{geometry}
+
+\usepackage{ifxetex}
+\ifxetex
+ \usepackage{fontspec}
+ \setmainfont[Scale=1.1]{Arno Pro}
+ \setmonofont[Scale=.92]{Consolas}
+ \usepackage{unicode-math}              %% пакет для загрузки шрифтов математического режима 
+ \setmathfont{[latinmodern-math.otf]}
+ \setmathfont[range=\mathit/{latin,Latin}]{Arno Pro Italic}
+ \setmathfont[range=up]{Arno Pro}
+ \setmathfont[range=\mathup/{latin,Latin}]{Arno Pro}
+\else
+ \usepackage[utf8]{inputenc}
+\fi
+\usepackage[russian]{babel}
+\usepackage{enumitem, minted,graphicx,xcolor}
+
+
+\begin{document}
+
+\section*{{\normalsize ИВТ-19 Основы программирования}\\Контрольная работа 1\\{\normalsize Часть B}}
+
+\vskip-2cm\strut\hfill\includegraphics[scale=.1]{logo-cpp.png}
+\\[1cm]
+Выполнять следует только тот вариант задания, справа от которого красным цветом указано нужное число.  
+
+\begin{enumerate}
+
+\item
+Введите с клавиатуры вещественные числа $a$, $b$ и выведите решение неравенства:
+\hfill\textcolor{red}{найдите вариант c $k$~--- ваш номер в списке группы}
+\newcommand{\grtb}{\>\color{red}}
+\begin{tabbing}
+$ax\geqslant b$ \hspace{18mm} \= \color{red}4 \=4 \=12 \=16 \=20 \=24 \=28\kill
+$ax<b$  \> \color{red}1 \grtb 5 \grtb 9 \grtb  13 \grtb 17 \grtb 21 \grtb 25 
+\\$ax\leqslant b$  \grtb  2 \grtb 6 \grtb 10 \grtb 14 \grtb 18 \grtb 22 \grtb 26
+\\$ax>b$  \grtb  3 \grtb 7 \grtb 11 \grtb 15 \grtb 19 \grtb 23 
+\\$ax\geqslant b$  \grtb  4 \grtb 8 \grtb 12 \grtb 16 \grtb 20 \grtb 24     
+\end{tabbing}
+в виде \texttt{X>2}, или  \texttt{X<=3.52} и т.\,п. Если решения нет, выведите \texttt{NO SOLUTION}, если годится любое число, выведите \texttt{ANY NUMBER}.
+
+\item
+\raisebox{-.6em}{\framebox[106mm]{\parbox{104mm}{\color{red}\textbf{ПРИБАВЬТЕ К ЧИСЛУ \textit{k} ИЗ ПРЕДЫДУЩЕГО ЗАДАНИЯ НОМЕР СВОЕЙ ГРУППЫ.} Выполняйте вариант с новым $k$}}}\\
+Вводите целые числа, до тех пор, пока не будет введено число \texttt{-1}. Само число -1 также включается в рассмотрение. Выведите для рассматриваемой последовательности:
+\begin{tabbing}
+число положительных нечетных элементов (бла бла бла бла)\=\kill
+число положительных нечетных элементов      \>\color{red}2 9  16 23\\
+число положительных четных элементов        \>\color{red}3 10 17 24\\
+число неотрицательных нечетных элементов    \>\color{red}4 11 18 25\\
+число неотрицательных четных элементов      \>\color{red}5 12 19 26\\
+число отрицательных нечетных элементов      \>\color{red}6 13 20 27\\
+число отрицательных четных элементов        \>\color{red}7 14 21\\
+число неположительных нечетных элементов    \>\color{red}8 15 22
+\end{tabbing}
+Нечетные числа~--- это $\pm 1, \pm 3\ldots$, четные~---  это $0, \pm 2, \pm 4,\ ldots$.
+
+\item
+\raisebox{-.6em}{\framebox[106mm]{\parbox{104mm}{\color{red}\textbf{ПРИБАВЬТЕ К ЧИСЛУ \textit{k} ИЗ ПРЕДЫДУЩЕГО ЗАДАНИЯ НОМЕР СВОЕЙ ГРУППЫ.} Выполняйте вариант с новым $k$}}}
+
+\newpage
+\noindent
+Будет введено число $n$, затем ровно $n$ целых чисел. Определите  
+\begin{tabbing}
+число положительных нечетных элементов (бла бла)\=\kill
+\\число отрезков строгого убывания\>\color{red}        3 8 13 18 23 28
+\\число отрезков строгого возрастания\>\color{red}     4 9 14 19 24 29
+\\максимальную длину убывающего отрезка\>\color{red}   5 10 15 20 25 30
+\\число отрезков неубывания\>\color{red}               6 11 16 21 26
+\\число отрезков невозрастания\>\color{red}            7 12 17 22 27
+\end{tabbing}
+в этой последовательности. Рассматривать только максимальные отрезки.
+Пример: в массиве \texttt{5 3 2 2 8 9 0} убывающим отрезком является \texttt{5 3 2}, но не \texttt{5 3}, а неубывающим отрезком \texttt{2 2 8 9}, но не \texttt{2 8 9}. Число отрезков неубывания в этом примере --- четыре.
+
+\end{enumerate}
+
+\end{document}
